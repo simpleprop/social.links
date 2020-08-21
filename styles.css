@@ -10,9 +10,11 @@ body{
 
 }
 main{
-  background-color: #3d3d3d;
+  background-image: url('https://discordapp.com/assets/a00896b9b5af1ccebeb80816b71995d0.svg');
+  background-size: cover;
+  background-blend-mode: soft-light;
   padding: 207px;
-
+  background-color: #303030;
 }
 h1{
   background-color: black;
@@ -27,4 +29,7 @@ main img{
 }
 main img:hover{
   transform: scale(1.1);
+}
+a{
+  text-decoration: none;
 }
